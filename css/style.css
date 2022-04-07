@@ -1,0 +1,50 @@
+:root {
+    --theme-main: #ffffff;
+    --theme-header: #2F303A;
+    --theme-work: #E5E5E5;
+    --theme-employees: #F5F4FA;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+/* ---------------------HEADER--------------------- */
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+/* ---------------------LOGO--------------------- */
+
+.logo {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: #2196F3;
+}
+
+.logo-dark {
+    color: #000;
+}
+
+.logo-light {
+    color: #fff;
+}
+/* ---------------------types of work--------------------- */
+
+
+/* ---------------------types of work in photo--------------------- */
+
+
+/* ---------------------employees--------------------- */
+
+
+/* ---------------------supporting information--------------------- */
+
+
