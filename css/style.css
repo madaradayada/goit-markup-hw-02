@@ -1,50 +1,225 @@
 :root {
-    --theme-main: #ffffff;
-    --theme-header: #2F303A;
-    --theme-work: #E5E5E5;
-    --theme-employees: #F5F4FA;
+  --theme-main: #ffffff;
+  --theme-header: #2f303a;
+  --theme-work: #e5e5e5;
+  --theme-employees: #f5f4fa;
 }
 
 body {
-    font-family: 'Roboto', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  color: #212121;
+}
+
+.studio-btn {
+  font-family: inherit;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 1.33;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.portfolio-btn {
+  width: 128px;
+  height: 38px;
+  left: 576px;
+  top: 174px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 /* ---------------------HEADER--------------------- */
 .link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .list {
-    list-style: none;
+  list-style: none;
 }
 /* ---------------------LOGO--------------------- */
 
 .logo {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.19;
-    letter-spacing: 0.03em;
-    color: #2196F3;
+  font-family: 'Raleway';
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #2196f3;
 }
 
 .logo-dark {
-    color: #000;
+  color: #000;
 }
 
 .logo-light {
-    color: #fff;
+  color: #fff;
 }
+/* ---------------------title--------------------- */
+
+.title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #212121;
+}
+
+.title-blue {
+  color: #2196f3;
+}
+
+.title-grey {
+  color: #757575;
+}
+
 /* ---------------------types of work--------------------- */
 
+.main-bg {
+  background: #2f303a;
+}
+
+.business {
+  font-family: 'Roboto';
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 136%;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.main-btn {
+  width: 200px;
+  height: 50px;
+  left: 700px;
+  top: 430px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.text-btn {
+  font-family: 'Roboto';
+  font-weight: 700;
+  color: #ffffff;
+}
+
+.text-btn-prtf {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 162%;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.section {
+  background: var(--theme-work);
+}
+
+.features-title {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.features-text {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+.work {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+/* ---------------------All--------------------- */
+
+.all-tilte {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 200%;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+> .all-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 188%;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
 /* ---------------------types of work in photo--------------------- */
 
-
 /* ---------------------employees--------------------- */
 
+.section-grey {
+  background: #f5f4fa;
+}
+
+.team {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.16;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-title {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+}
+
+.team-text {
+  font-family: 'Roboto';
+  font-size: 16px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
 
 /* ---------------------supporting information--------------------- */
 
+.section-ftr {
+  background: #2f303a;
+}
 
+.adress {
+  font-family: 'Roboto';
+  font-size: 14px;
+  line-height: 171%;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.adress-gray {
+  color: rgba(255, 255, 255, 0.6);
+}
