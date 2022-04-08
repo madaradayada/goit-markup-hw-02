@@ -22,19 +22,21 @@ body {
   cursor: pointer;
 }
 
+.studio-btn:hover {
+  opacity: 0.8;
+}
+
 .portfolio-btn {
   background: var(--theme-employees);
   border-radius: 4px;
   cursor: pointer;
 }
 
-.portfolio-btn:focus {
-  background-color: var(--theme-btn-fcs);
-}
-
+.portfolio-btn:focus,
 .portfolio-btn:hover {
   background-color: var(--theme-btn-fcs);
 }
+
 /* ---------------------HEADER--------------------- */
 .link {
   text-decoration: none;
@@ -70,10 +72,7 @@ body {
   color: var(--theme-body);
 }
 
-.title:focus {
-  color: var(--theme-btn-fcs);
-}
-
+.title:focus,
 .title:hover {
   color: var(--theme-btn-fcs);
 }
@@ -82,14 +81,14 @@ body {
   color: var(--theme-text);
 }
 
-.title-grey:focus {
-  color: var(--theme-btn-fcs);
-}
-
+.title-grey:focus,
 .title-grey:hover {
   color: var(--theme-btn-fcs);
 }
 
+.title.link.current {
+  color: var(--theme-btn-fcs);
+}
 /* ---------------------types of work--------------------- */
 
 .main-bg {
@@ -215,10 +214,7 @@ body {
   color: #ffffff;
 }
 
-.adress:focus {
-  color: var(--theme-btn-fcs);
-}
-
+.adress:focus,
 .adress:hover {
   color: var(--theme-btn-fcs);
 }
@@ -227,10 +223,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.adress-gray:focus {
-  color: var(--theme-btn-fcs);
-}
-
+.adress-gray:focus,
 .adress-gray:hover {
   color: var(--theme-btn-fcs);
 }
