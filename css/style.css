@@ -37,6 +37,9 @@ body {
   background-color: var(--theme-btn-fcs);
 }
 
+.portfolio-btn.current {
+  background-color: var(--theme-btn-fcs);
+}
 /* ---------------------HEADER--------------------- */
 .link {
   text-decoration: none;
